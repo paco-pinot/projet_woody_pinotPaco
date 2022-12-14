@@ -21614,6 +21614,20 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
+@media (max-width: 425px) {
+  .section2 {
+    margin: 3em 0 0 0 !important;
+  }
+  .section2 .containerSection2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section2 .containerSection2 .colonneSection2 .containerColonne .topColonne {
+    gap: 0;
+    flex-direction: column;
+  }
+}
 header {
   margin: 0;
 }

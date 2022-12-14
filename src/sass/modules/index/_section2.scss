@@ -36,3 +36,22 @@
         }
     }
 }
+// MEDIA QUERY 375PX ET 425PX
+@media (max-width: 425px){
+    .section2{
+        margin: 3em 0 0 0 !important;
+        .containerSection2{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .colonneSection2{
+                .containerColonne{
+                    .topColonne{
+                        gap: 0;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
