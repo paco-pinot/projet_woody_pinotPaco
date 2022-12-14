@@ -1,0 +1,102 @@
+.section5{
+    margin-top: 6em;
+    .containerSection3{
+        width: 100%;
+        display: flex ;
+        height: 450px;
+        .leftPartS3{
+            width: 50%;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .rightPartS3{
+            background-color: #F5F5F5;
+            width: 50%;
+            padding-left: 2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 10%;
+            padding-right: 2%;
+            .topRightS3{
+                h2{
+                    font-size: 3em;
+                    font-weight: bold;
+                    color: black;
+                }
+                p{
+                    margin-top: 2em;
+                    line-height: 1.5em;
+                    letter-spacing: 1px;
+                    font-size: small;
+                }
+            }
+            .containerColonneSection5{
+                display: flex;
+                gap: 2em;
+                .colSection5Left,.colSection5Right{
+                    .topBottomRightS3{
+                        display: flex;
+                        gap: 1em;
+                        // height: 100px;
+                        .iconS3{
+                            i{
+                            background-color: white;
+                            color: #AB7442;
+                            font-size: 2em;
+                            padding: 10px;
+                            }                       
+                        }
+                        .txtNearIconS3{
+                            p{
+                                font-weight: bold;
+                                span{
+                                    color: grey;
+                                    font-size: 1em;
+                                    font-weight: normal;
+                                    
+                                }
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    }
+}
+// MEDIA QUERY 375PX ET 425PX
+@media (max-width: 700px){
+    .section5{
+        margin-top: 3em !important;
+        .containerSection3{
+            flex-direction: column;
+            .leftPartS3{
+                width: 100%;
+            }
+            .rightPartS3{
+                width: 100%;
+                .topRightS3{
+                    text-align: center;
+                    margin-top: 2em;
+                }
+                .containerColonneSection5{
+                    justify-content: center;
+                    .colSection5Left,.colSection5Right{
+                        .topBottomRightS3{
+                            flex-direction: column;
+                            height: auto;
+                            align-items: center;
+                            .txtNearIconS3{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }   
+    }
+}
