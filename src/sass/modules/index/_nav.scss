@@ -15,7 +15,8 @@ nav{
         .exemple{
             position: absolute;
             display: none;
-            
+            z-index: 50;
+            background-color: white;
             ul{
                 list-style-type:none;
                 display: flex;
