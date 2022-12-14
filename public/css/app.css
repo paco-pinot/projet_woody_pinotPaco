@@ -21584,6 +21584,36 @@ textarea.form-control-lg {
   padding: 15px;
 }
 
+.section2 {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 6em;
+}
+.section2 .containerSection2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+.section2 .containerSection2 .colonneSection2 .containerColonne .topColonne {
+  display: flex;
+  gap: 6em;
+  align-items: center;
+}
+.section2 .containerSection2 .colonneSection2 .containerColonne .topColonne .leftTopColonne i {
+  font-size: 38px;
+  padding: 10px;
+  background-color: #F5F5F5;
+}
+.section2 .containerSection2 .colonneSection2 .containerColonne .topColonne .rightTopColonne {
+  font-size: 3em;
+  color: #F5F5F5;
+}
+.section2 .containerSection2 .colonneSection2 .containerColonne .bottomColonne span {
+  font-weight: bold;
+}
+
 header {
   margin: 0;
 }

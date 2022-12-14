@@ -1,0 +1,38 @@
+.section2{
+    margin-left:15% ;
+    margin-right: 15%;
+    margin-top: 6em;
+    .containerSection2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+        .colonneSection2{
+            .containerColonne{
+                .topColonne{
+                    display: flex;
+                    gap: 6em;
+                    align-items: center;
+                    .leftTopColonne{
+                        i{
+                        font-size: 38px;
+                        padding: 10px;
+                        background-color: #F5F5F5;
+                        }
+                    }
+                    .rightTopColonne{
+                    font-size: 3em;
+                    color: #F5F5F5;
+                    }
+                }
+                .bottomColonne{
+                    span{
+                        font-weight: bold;
+                    }
+                }
+
+            }
+        }
+    }
+}
