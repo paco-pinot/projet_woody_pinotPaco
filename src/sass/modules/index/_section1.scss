@@ -3,7 +3,14 @@
     .carousel{
         
         .carousel-indicators{
-            
+            button{
+                border:5px white double !important ;
+                border-top:5px white double !important ;
+                border-bottom: 5px white double !important;
+                width: 5px !important;
+                height: 5px !important;
+            }
+
         }
         .carousel-inner{
             .carousel-item{
@@ -44,13 +51,19 @@
                 }
             }
         }
+        .carousel-control-prev, .carousel-control-next{
+            width: 85%;
+            top: auto;
+            .carousel-control-next-icon,.carousel-control-prev-icon{
+                height: 10px;
+                width: 10px;
+                border: solid white 1px;
+                padding: 15px;
+            }
+        }
+
     }
 
 }
-.carousel-indicators{
-    button{
-    
-    }
 
-}
 

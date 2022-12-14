@@ -21535,6 +21535,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.section1 .carousel .carousel-indicators button {
+  border: 5px white double !important;
+  border-top: 5px white double !important;
+  border-bottom: 5px white double !important;
+  width: 5px !important;
+  height: 5px !important;
+}
 .section1 .carousel .carousel-inner .carousel-item .carousel-caption {
   bottom: 40%;
   margin-left: 10%;
@@ -21565,6 +21572,16 @@ textarea.form-control-lg {
 .section1 .carousel .carousel-inner .carousel-item .carousel-caption .buttonsCaroussel .btnCar {
   background-color: #AB7442;
   color: white;
+}
+.section1 .carousel .carousel-control-prev, .section1 .carousel .carousel-control-next {
+  width: 85%;
+  top: auto;
+}
+.section1 .carousel .carousel-control-prev .carousel-control-next-icon, .section1 .carousel .carousel-control-prev .carousel-control-prev-icon, .section1 .carousel .carousel-control-next .carousel-control-next-icon, .section1 .carousel .carousel-control-next .carousel-control-prev-icon {
+  height: 10px;
+  width: 10px;
+  border: solid white 1px;
+  padding: 15px;
 }
 
 header {
