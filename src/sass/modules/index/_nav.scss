@@ -1,0 +1,45 @@
+nav{
+    .navbar-nav{
+        .nav-link{
+            cursor: pointer!important;
+        }
+        .navbarQuote{
+            a{
+                background-color: #AB7442!important;
+            }
+        }
+    }
+    
+    .dropdownPages{
+        cursor: pointer;
+        .exemple{
+            position: absolute;
+            display: none;
+            
+            ul{
+                list-style-type:none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left:10px ;
+                padding-right: 10px;
+                width: 130px;
+                li{
+                    cursor: pointer;
+                    height: 2em;
+                }
+                li:hover{
+                    background-color: rgba(128, 128, 128, 0.306);
+                    width: 100%;
+                    color: #AB7442;
+                }
+            }
+        }
+    }
+    .dropdownPages:hover .exemple{
+        display: block;
+    }
+    
+}
+
+

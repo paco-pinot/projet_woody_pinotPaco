@@ -8,23 +8,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/app.css">
     <link rel="icon" type="image/x-icon" href="...">
+    <script src="./public/js/app.js"></script>
 </head>
 
 <body>
+
     <header>
         <section class="sectionTopHeader  ">
             <div class="containerSectionHeader d-flex justify-content-between">
                 <div class="leftPartSectionHeader d-flex gap-3">
                     <div class="contenuLeftSectionHeader">
                         <div class="streetHeader ">
-                            
+
                             <i class="fa-solid fa-location-dot colorBrun"></i><span>123 Street, New York, USA</span>
                         </div>
                     </div>
                     <div class="contenuLeftSectionHeader">
-                        
-                            <i class="fa-regular fa-clock colorBrun"></i> <span>Mon-Fri : 09.00 AM -09.00 PM</span>
-                        
+
+                        <i class="fa-regular fa-clock colorBrun"></i> <span>Mon-Fri : 09.00 AM -09.00 PM</span>
+
                     </div>
                 </div>
                 <div class="rightPartSectionHeader d-flex gap-3">
@@ -40,11 +42,10 @@
                 </div>
             </div>
         </section>
-        
-        <nav class="navbar navbar-expand-sm bg-light">
-            <div class="container-fluid">
 
-                <img class="navbar-brand" src="./public/img/logo.svg" alt="">
+        <nav class="navbar navbar-expand-sm ">
+            <div class="container-fluid">
+                <a class="navbar-brand colorBrun" href="#">Molengeek</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -53,17 +54,34 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
 
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link active" href="#">New</a>
-                        <a class="nav-link active" href="#">Popular</a>
-                        <a class="nav-link active">Trending</a>
-                        <a class="nav-link active">Categories</a>
+                        <a class="nav-link active colorBrun" href="#">HOME</a>
+                        <a class="nav-link active hoverBrunNavbar " href="#">ABOUT</a>
+                        <a class="nav-link active hoverBrunNavbar" href="#">SERVICE</a>
+                        <a class="nav-link active hoverBrunNavbar" href="#">PROJECT</a>
+                        <a class="nav-link active dropdownPages hoverBrunNavbar">PAGES
+                            <div class="exemple">
+                                <ul>
+                                    <li>Feature</li>
+                                    <li>Free Quote</li>
+                                    <li>Our Team</li>
+                                    <li>Testimonial</li>
+                                    <li>404 Page</li>
+                                </ul>
+                            </div>
+                        </a>
+                        <a class="nav-link active" href="#">CONTACT</a>
+                        <div class="navbarQuote">
+                            <a class="nav-link active bg-brun text-white" href="#">Get A Quote <i
+                                    class="fa-solid fa-arrow-right text-white"></i></a>
+                        </div>
 
                     </div>
                 </div>
             </div>
         </nav>
+
     </header>
 </body>
+
 
 </html>

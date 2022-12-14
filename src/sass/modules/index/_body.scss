@@ -3,5 +3,10 @@ body{
     margin: 0;
 }
 .colorBrun{
-    color: #AB7442;
+    --bs-text-opacity: 1;
+    color: #AB7442 !important;
 }
+.bg-brun {
+    --bs-bg-opacity: 1;
+    background-color: #AB7442 !important;
+  }

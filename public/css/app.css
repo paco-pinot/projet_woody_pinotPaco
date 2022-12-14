@@ -21554,6 +21554,41 @@ header .sectionTopHeader .containerSectionHeader .leftPartSectionHeader {
 header .sectionTopHeader .containerSectionHeader .rightPartSectionHeader {
   align-items: center !important;
 }
+nav .navbar-nav .nav-link {
+  cursor: pointer !important;
+}
+nav .navbar-nav .navbarQuote a {
+  background-color: #AB7442 !important;
+}
+nav .dropdownPages {
+  cursor: pointer;
+}
+nav .dropdownPages .exemple {
+  position: absolute;
+  display: none;
+}
+nav .dropdownPages .exemple ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 130px;
+}
+nav .dropdownPages .exemple ul li {
+  cursor: pointer;
+  height: 2em;
+}
+nav .dropdownPages .exemple ul li:hover {
+  background-color: rgba(128, 128, 128, 0.306);
+  width: 100%;
+  color: #AB7442;
+}
+nav .dropdownPages:hover .exemple {
+  display: block;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
