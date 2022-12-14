@@ -1,8 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "paco";
-  src: url("../../public/fonts/MartianMono-VariableFont_wdth,wght.ttf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -21538,6 +21535,29 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-h1, .h1 {
-  color: red;
+header {
+  margin: 0;
+}
+header .sectionTopHeader {
+  margin: 0;
+  background-color: rgba(128, 128, 128, 0.249);
+  height: 4em;
+}
+header .sectionTopHeader .containerSectionHeader {
+  margin-left: 2em;
+  margin-right: 2em;
+  align-items: center !important;
+}
+header .sectionTopHeader .containerSectionHeader .leftPartSectionHeader {
+  align-items: center !important;
+}
+header .sectionTopHeader .containerSectionHeader .rightPartSectionHeader {
+  align-items: center !important;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.colorBrun {
+  color: #AB7442;
 }

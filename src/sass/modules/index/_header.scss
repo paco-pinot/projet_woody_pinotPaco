@@ -1,3 +1,32 @@
-h1{
-    color: red;
+header{
+margin: 0;
+    .sectionTopHeader{
+        margin: 0;
+        background-color: rgba(128, 128, 128, 0.249);
+        height: 4em;
+        .containerSectionHeader{
+            margin-left: 2em;
+            margin-right: 2em;
+            align-items: center !important;
+            
+            .leftPartSectionHeader{
+                align-items: center !important;
+                
+                .contenuLeftSectionHeader{
+                    .streetHeader{
+                    }
+                }
+            }
+            .rightPartSectionHeader{
+                align-items: center !important;
+                
+                .contenuRightSectionHeader{
+                    
+                    .reseauxHeader{
+
+                    }
+                }
+            }
+        }
+    }
 }

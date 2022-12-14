@@ -1,39 +1,69 @@
 <!DOCTYPE html>
-        <html lang="fr">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-            <link rel="stylesheet" href="./public/css/app.css">
-            <link rel="icon" type="image/x-icon" href="...">
-           
-        </head>
-        <body>
-            <header>
-                <section class="sectionTopHeader">
-                    <div class="containerSectionHeader">
-                        <div class="leftPartSectionHeader">
-                            <div class="contenuLeftSectionHeader">
+<html lang="fr">
 
-                            </div>
-                            <div class="contenuLeftSectionHeader">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="icon" type="image/x-icon" href="...">
+</head>
 
-                            </div>
-                        </div>
-                        <div class="rightPartSectionHeader">
-                            <div class="contenuRightSectionHeader">
-
-                            </div>
-                            <div class="contenuRightSectionHeader">
-                                
-                            </div>
+<body>
+    <header>
+        <section class="sectionTopHeader  ">
+            <div class="containerSectionHeader d-flex justify-content-between">
+                <div class="leftPartSectionHeader d-flex gap-3">
+                    <div class="contenuLeftSectionHeader">
+                        <div class="streetHeader ">
+                            
+                            <i class="fa-solid fa-location-dot colorBrun"></i><span>123 Street, New York, USA</span>
                         </div>
                     </div>
-                </section>
-                <nav>
+                    <div class="contenuLeftSectionHeader">
+                        
+                            <i class="fa-regular fa-clock colorBrun"></i> <span>Mon-Fri : 09.00 AM -09.00 PM</span>
+                        
+                    </div>
+                </div>
+                <div class="rightPartSectionHeader d-flex gap-3">
+                    <div class="contenuRightSectionHeader ">
+                        <i class="fa-solid fa-phone colorBrun"></i> <span>+012 345 6789</span>
+                    </div>
+                    <div class="contenuRightSectionHeader d-flex gap-3">
+                        <div class="reseauxHeader"><i class="fa-brands fa-facebook-f colorBrun"></i></div>
+                        <div class="reseauxHeader"><i class="fa-brands fa-twitter colorBrun"></i></div>
+                        <div class="reseauxHeader"><i class="fa-brands fa-linkedin-in colorBrun"></i></div>
+                        <div class="reseauxHeader"><i class="fa-brands fa-instagram colorBrun"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <nav class="navbar navbar-expand-sm bg-light">
+            <div class="container-fluid">
 
-                </nav>
-            </header>
-        </body>
-        </html>
+                <img class="navbar-brand" src="./public/img/logo.svg" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" href="#">New</a>
+                        <a class="nav-link active" href="#">Popular</a>
+                        <a class="nav-link active">Trending</a>
+                        <a class="nav-link active">Categories</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
