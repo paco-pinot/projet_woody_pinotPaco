@@ -1,0 +1,92 @@
+.section6{
+    margin-left:15% ;
+    margin-right: 15%;
+    margin-top: 6em;
+    h2{
+        font-weight: bolder;
+        color: black;
+        font-size: 3em;
+        text-align: center;
+    }
+    .containerListTopSection6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5em;
+        margin-top: 2em;
+        font-size: medium;
+        cursor: pointer;
+        .listSection6{
+            span{
+                color: #AB7442;
+                text-decoration: underline;
+            }
+        }
+    }
+    .containerSection4{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        margin-top: 2em;
+        .topSection4,.bottomSection4{
+            display: flex;
+            gap: 2em;
+            justify-content:space-between ;
+            .cardsSection4{
+                width: 100%;
+                height: 100%;
+                .imgCardsSection4{
+                    overflow: hidden;
+                    position: relative;
+                    .animSection6Cards{
+                        display: none;                      
+                        .animSection6Enfant{
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            justify-content: center;
+                            background-color: rgba(0, 0, 0, 0.205);
+                            position: absolute;
+                            z-index: 200;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        i{
+                            
+                        }
+                    }
+                    .animSection6Cards:hover .animSection6Enfant{
+                        display: block;
+                    }
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                        transition: 1s;
+                    }
+                    img:hover{
+                        transform: scale(1.1);
+                        transition-duration: 1s;
+                    }
+                }
+                .textCardsSection4{
+                    text-align: center;
+                    border: 3px solid rgba(128, 128, 128, 0.148);
+                    border-top: 0;
+                    padding-top: 1em;
+                    h4{
+                        font-size: medium;
+                        font-weight: bold;
+                        color: black;
+                    }
+                    p{
+                        color: grey;
+                    }
+                    span{
+                        color: #AB7442;
+                    }
+                }
+            }
+        }
+    }
+}
