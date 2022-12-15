@@ -65,6 +65,23 @@ footer{
                 
             }
         }
+        .bottomFooter{
+            margin-left:10% ;
+            margin-right: 10%;
+            border-top:1px white solid ;
+            padding-top: 1.5em;
+            padding-bottom: 2em;
+            display: flex;
+            justify-content: space-between;
+            div{
+                span{
+                    text-decoration: underline;
+                }
+            }
+        }
         
     }
+}
+@media (max-width: 700px){
+
 }

@@ -22241,6 +22241,18 @@ footer .containerFooter .topFooter .footercolumn ul li .containerLogoFooter i {
   border: white solid 1px;
   padding: 10px;
 }
+footer .containerFooter .bottomFooter {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-top: 1px white solid;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+footer .containerFooter .bottomFooter div span {
+  text-decoration: underline;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
