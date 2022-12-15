@@ -21933,30 +21933,22 @@ textarea.form-control-lg {
 }
 .section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards {
   position: absolute;
-}
-.section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards .animSection6Enfant, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards .animSection6Enfant {
   display: flex;
   align-items: center;
-  text-align: center;
   gap: 1em;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.205);
+  background-color: rgba(0, 0, 0, 0.589);
   position: absolute;
-  z-index: 200;
   width: 100%;
   height: 100%;
+  transition: 1s;
 }
-.section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards .animSection6Enfant i, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards .animSection6Enfant i {
+.section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards i, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards i {
   padding: 10px;
   background-color: transparent;
   border: 1px solid white;
-  color: black;
-}
-.section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover {
-  display: block;
-}
-.section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover .animSection6Enfant, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover .animSection6Enfant {
-  display: block;
+  color: white;
+  cursor: pointer;
 }
 .section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 img, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 img {
   width: 100%;
@@ -21985,6 +21977,14 @@ textarea.form-control-lg {
 }
 .section6 .containerSection4 .topSection4 .cardsSection4 .textCardsSection4 span, .section6 .containerSection4 .bottomSection4 .cardsSection4 .textCardsSection4 span {
   color: #AB7442;
+}
+
+.zob {
+  display: none;
+}
+
+.tololo:hover .zob {
+  display: block;
 }
 
 @media (max-width: 700px) {
@@ -22286,4 +22286,22 @@ body {
 
 .colorBrun {
   color: #AB7442;
+}
+
+.section1Contact {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../../public/img/img2/carousel-1.jpg);
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  color: white;
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section1Contact h1, .section1Contact .h1 {
+  font-weight: bolder;
+  font-size: 3em;
 }
