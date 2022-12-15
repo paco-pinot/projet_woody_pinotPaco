@@ -1,32 +1,36 @@
 header{
-margin: 0;
-    .sectionTopHeader{
-        margin: 0;
-        background-color: rgba(128, 128, 128, 0.249);
-        height: 4em;
-        .containerSectionHeader{
-            margin-left: 2em;
-            margin-right: 2em;
-            align-items: center !important;
-            
-            .leftPartSectionHeader{
-                align-items: center !important;
-                
-                .contenuLeftSectionHeader{
-                    .streetHeader{
-                    }
-                }
+    margin: 0;
+    .sectionHeader{
+        .containerHeader{
+            background-color: rgba(128, 128, 128, 0.249);
+            display: flex;
+            align-items: center;
+            padding-top: 0.7em;
+            padding-bottom: 0.7em;
+            justify-content: space-between;
+            padding-left: 1em;
+            padding-right: 1em;
+            .leftPartHeader, .rightPartHeader{
+                display: flex;
+                gap: 1em;
+                align-items: center;
             }
-            .rightPartSectionHeader{
-                align-items: center !important;
+            .rightPartHeader{
                 
-                .contenuRightSectionHeader{
-                    
-                    .reseauxHeader{
-
+                .reseauxHeader{
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    div{
+                        
+                        i{
+                            background-color: white;
+                            padding: 10px;
+                        }
                     }
                 }
             }
         }
     }
 }
+

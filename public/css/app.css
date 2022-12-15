@@ -22127,22 +22127,31 @@ textarea.form-control-lg {
 header {
   margin: 0;
 }
-header .sectionTopHeader {
-  margin: 0;
+header .sectionHeader .containerHeader {
   background-color: rgba(128, 128, 128, 0.249);
-  height: 4em;
+  display: flex;
+  align-items: center;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
 }
-header .sectionTopHeader .containerSectionHeader {
-  margin-left: 2em;
-  margin-right: 2em;
-  align-items: center !important;
+header .sectionHeader .containerHeader .leftPartHeader, header .sectionHeader .containerHeader .rightPartHeader {
+  display: flex;
+  gap: 1em;
+  align-items: center;
 }
-header .sectionTopHeader .containerSectionHeader .leftPartSectionHeader {
-  align-items: center !important;
+header .sectionHeader .containerHeader .rightPartHeader .reseauxHeader {
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
-header .sectionTopHeader .containerSectionHeader .rightPartSectionHeader {
-  align-items: center !important;
+header .sectionHeader .containerHeader .rightPartHeader .reseauxHeader div i {
+  background-color: white;
+  padding: 10px;
 }
+
 nav .navbar-nav .nav-link {
   cursor: pointer !important;
 }
@@ -22196,9 +22205,6 @@ footer .containerFooter .topFooter {
   justify-content: center;
   gap: 2em;
   width: 100%;
-}
-footer .containerFooter .topFooter .footercolumn .containerNewsletter .textNewsletter {
-  color: white;
 }
 footer .containerFooter .topFooter .footercolumn .containerNewsletter .emailNewsletter .containerEmailNL {
   display: flex;
