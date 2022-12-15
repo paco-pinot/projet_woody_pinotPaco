@@ -30,6 +30,7 @@ footer{
                                 background-color: #AB7442;
                                 color: white;
                                 padding: 10px;
+                                cursor: pointer;
                                 
                             }
                         }
@@ -52,14 +53,23 @@ footer{
                         display: flex;
                         gap: 1em;
                         align-items: center;
+                        cursor: pointer;
                         .containerLogoFooter{
                             display: flex;
-                            gap: 1em;
+                            gap: 1px;
                             i{
                                 border: white solid 1px;
                                 padding: 10px;
                             }
+                            i:hover{
+                                color: black;
+                                background-color: white;
+                            }
                         }
+                    }
+                    li:hover{
+                        color: #AB7442;
+                        transform: scale(1.04);
                     }
                 }
                 

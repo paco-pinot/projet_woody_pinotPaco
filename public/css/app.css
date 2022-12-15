@@ -22213,6 +22213,7 @@ footer .containerFooter .topFooter .footercolumn .containerNewsletter .emailNews
   background-color: #AB7442;
   color: white;
   padding: 10px;
+  cursor: pointer;
 }
 footer .containerFooter .topFooter .footercolumn h3, footer .containerFooter .topFooter .footercolumn .h3 {
   font-size: 1.5em;
@@ -22232,14 +22233,23 @@ footer .containerFooter .topFooter .footercolumn ul li {
   display: flex;
   gap: 1em;
   align-items: center;
+  cursor: pointer;
 }
 footer .containerFooter .topFooter .footercolumn ul li .containerLogoFooter {
   display: flex;
-  gap: 1em;
+  gap: 1px;
 }
 footer .containerFooter .topFooter .footercolumn ul li .containerLogoFooter i {
   border: white solid 1px;
   padding: 10px;
+}
+footer .containerFooter .topFooter .footercolumn ul li .containerLogoFooter i:hover {
+  color: black;
+  background-color: white;
+}
+footer .containerFooter .topFooter .footercolumn ul li:hover {
+  color: #AB7442;
+  transform: scale(1.04);
 }
 footer .containerFooter .bottomFooter {
   margin-left: 10%;
