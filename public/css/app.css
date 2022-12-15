@@ -21931,18 +21931,28 @@ textarea.form-control-lg {
   position: relative;
 }
 .section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards {
-  display: none;
+  position: absolute;
 }
 .section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards .animSection6Enfant, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards .animSection6Enfant {
   display: flex;
   align-items: center;
   text-align: center;
+  gap: 1em;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.205);
   position: absolute;
   z-index: 200;
   width: 100%;
   height: 100%;
+}
+.section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards .animSection6Enfant i, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards .animSection6Enfant i {
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: black;
+}
+.section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover {
+  display: block;
 }
 .section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover .animSection6Enfant, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover .animSection6Enfant {
   display: block;
