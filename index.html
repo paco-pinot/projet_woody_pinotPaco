@@ -526,37 +526,54 @@
                     </div>
                     <div class="formSection7">
                         <form>
-                            <div class="containerForm">
-                                <div class="rowForm">
-                                    <div class="containerFormRow">
-                                        <input id="input" style="color: blue;" type="text" placeholder="Your Name">
-                                        <input type="email" placeholder="Your Email">
+                            <!-- 2 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <!-- NAME INPUT -->
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="form3Example1" class="form-control"
+                                            placeholder="Your Name" />
                                     </div>
                                 </div>
-                                <div class="rowForm">
-                                    <div class="containerFormRow">
-                                        <input type="tel" placeholder="Your Mobile">
-                                        <select>
-                                            <option value="" disabled selected>Select A Service</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                <!-- EMAIL INPUT -->
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="email" id="form3Example2" class="form-control"
+                                            placeholder="Your Email" />
                                     </div>
-                                </div>
-                                <div class="rowform">
-                                    <input type="textarea" placeholder="Special Note">
-                                </div>
-                                <div class="rowForm">
-                                    <input type="submit" value="Submit">
                                 </div>
                             </div>
+                            <div class="row mb-4">
+                                <!-- TEL INPUT -->
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="tel" id="form3Example1" class="form-control"
+                                            placeholder="Your Mobile" />
+                                    </div>
+                                </div>
+                                <!-- SELECT INPUT -->
+                                <div class="col">
+                                    <select class="select">
+                                        <option value="" disabled selected>Select A Service</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- TEXTAREA INPUT -->
+                            <div class="form-outline mb-4">
+                                <textarea class="form-control" id="form4Example3" rows="2"
+                                    placeholder="Special Note"></textarea>
+                            </div>
+                            <!-- Submit button -->
+                            <button class="btnForm">Submit</button>
                         </form>
                     </div>
                 </div>
-
         </section>
+
         <br><br><br><br><br><br><br><br><br><br>
     </main>
 </body>
