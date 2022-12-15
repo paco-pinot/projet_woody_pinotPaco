@@ -22254,6 +22254,16 @@ footer .containerFooter .bottomFooter div span {
   text-decoration: underline;
 }
 
+@media (max-width: 700px) {
+  .topFooter {
+    flex-direction: column;
+  }
+  .bottomFooter {
+    flex-direction: column;
+    gap: 3em;
+    text-align: center;
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
 }

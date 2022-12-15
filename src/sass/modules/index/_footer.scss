@@ -84,6 +84,11 @@ footer{
 }
 @media (max-width: 700px){
     .topFooter{
-        
+        flex-direction: column;
+    }
+    .bottomFooter{
+        flex-direction: column;
+        gap: 3em;
+        text-align: center;
     }
 }
