@@ -100,3 +100,21 @@
         }
     }
 }
+@media (max-width: 700px){
+    .section6{
+        // A REGLER AVEC SECTION 3
+        h2{
+            font-size: 2em;
+        }
+        .containerListTopSection6{
+            font-size: small;
+        }
+        margin-top: 40em !important;
+        .containerSection4{
+            .topSection4,.bottomSection4{
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+}

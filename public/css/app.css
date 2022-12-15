@@ -21986,6 +21986,21 @@ textarea.form-control-lg {
   color: #AB7442;
 }
 
+@media (max-width: 700px) {
+  .section6 {
+    margin-top: 40em !important;
+  }
+  .section6 h2, .section6 .h2 {
+    font-size: 2em;
+  }
+  .section6 .containerListTopSection6 {
+    font-size: small;
+  }
+  .section6 .containerSection4 .topSection4, .section6 .containerSection4 .bottomSection4 {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 header {
   margin: 0;
 }
