@@ -38,3 +38,12 @@
         }
     }
 }
+@media (max-width: 700px){
+    .section8{
+        display: block;
+        margin-top: 25em !important;
+        .containerSection8{
+            flex-direction: column;
+        }
+    }
+}
