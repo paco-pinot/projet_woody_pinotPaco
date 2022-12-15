@@ -22180,6 +22180,68 @@ nav .dropdownPages:hover .exemple {
   display: block;
 }
 
+footer {
+  background-color: #303030;
+  width: 100%;
+}
+footer .containerFooter {
+  padding-top: 6em;
+  color: white;
+  width: 100%;
+}
+footer .containerFooter .topFooter {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  width: 100%;
+}
+footer .containerFooter .topFooter .footercolumn .containerNewsletter .textNewsletter {
+  color: white;
+}
+footer .containerFooter .topFooter .footercolumn .containerNewsletter .emailNewsletter .containerEmailNL {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: grey;
+  background-color: white;
+  padding: 10px;
+}
+footer .containerFooter .topFooter .footercolumn .containerNewsletter .emailNewsletter .containerEmailNL .btnfooter {
+  background-color: #AB7442;
+  color: white;
+  padding: 10px;
+}
+footer .containerFooter .topFooter .footercolumn h3, footer .containerFooter .topFooter .footercolumn .h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+footer .containerFooter .topFooter .footercolumn ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  width: 100%;
+  font-size: small;
+}
+footer .containerFooter .topFooter .footercolumn ul li {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+footer .containerFooter .topFooter .footercolumn ul li .containerLogoFooter {
+  display: flex;
+  gap: 1em;
+}
+footer .containerFooter .topFooter .footercolumn ul li .containerLogoFooter i {
+  border: white solid 1px;
+  padding: 10px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }

@@ -1,0 +1,70 @@
+footer{
+    background-color: #303030;
+    width: 100%;
+    .containerFooter{
+        padding-top: 6em;
+        color: white;
+        width: 100%;
+        .topFooter{
+            padding-left:10% ;
+            padding-right: 10%;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            width: 100%;
+            .footercolumn{
+                .containerNewsletter{
+                    .textNewsletter{
+                        color: white;
+                    }
+                    .emailNewsletter{
+                        .containerEmailNL{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 100%;
+                            color: grey;
+                            background-color: white;
+                            padding: 10px;
+                            .btnfooter{
+                                background-color: #AB7442;
+                                color: white;
+                                padding: 10px;
+                                
+                            }
+                        }
+                    }
+                }
+                h3{
+                    font-size: 1.5em;
+                    font-weight: bold;
+                    margin-bottom: 1em;
+                }
+                ul{
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.4em;
+                    width: 100%;
+                    font-size: small;
+                    li{
+                        display: flex;
+                        gap: 1em;
+                        align-items: center;
+                        .containerLogoFooter{
+                            display: flex;
+                            gap: 1em;
+                            i{
+                                border: white solid 1px;
+                                padding: 10px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}
