@@ -22078,6 +22078,43 @@ textarea.form-control-lg {
     margin-top: 2em;
   }
 }
+.section8 {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 6em;
+}
+.section8 h2, .section8 .h2 {
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+.section8 .containerSection8 {
+  margin-top: 2em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1em;
+}
+.section8 .containerSection8 .cardSection8 .imgCardsS8 img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.section8 .containerSection8 .cardSection8 .nameCardsS8 {
+  text-align: center;
+  border: 3px solid rgba(128, 128, 128, 0.148);
+  border-top: 0;
+}
+.section8 .containerSection8 .cardSection8 .nameCardsS8 span {
+  font-weight: bold;
+  font-size: 1em;
+}
+.section8 .containerSection8 .cardSection8 .nameCardsS8 p {
+  font-size: small;
+  color: grey;
+}
+
 header {
   margin: 0;
 }
