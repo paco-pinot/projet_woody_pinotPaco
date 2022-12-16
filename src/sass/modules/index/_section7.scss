@@ -61,10 +61,7 @@
         }
     }
 }
-
-
-
-@media (max-width: 700px){
+@media (max-width: 800px){
     .section7{
         margin-top: 3em !important;
         .containerSection3{
@@ -74,6 +71,8 @@
             }
             .rightPartS3{
                 width: 100%;
+                justify-content: center;
+                padding: auto;
                 .topRightS3{
                     text-align: center;
                     margin-top: 2em;

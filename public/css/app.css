@@ -21584,6 +21584,22 @@ textarea.form-control-lg {
   padding: 15px;
 }
 
+@media (max-width: 800px) {
+  .carousel-caption {
+    bottom: 0 !important;
+  }
+  .carousel-caption h3, .carousel-caption .h3 {
+    font-weight: bolder;
+    font-size: small;
+  }
+  .carousel-caption h5, .carousel-caption .h5 {
+    font-weight: bolder;
+    font-size: medium;
+  }
+  .carousel-caption p {
+    font-size: small;
+  }
+}
 .section2 {
   margin-left: 15%;
   margin-right: 15%;
@@ -21614,7 +21630,7 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .section2 {
     margin: 3em 0 0 0 !important;
   }
@@ -21694,7 +21710,7 @@ textarea.form-control-lg {
   margin-bottom: 1.4em;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .section3 {
     margin-top: 3em !important;
   }
@@ -21788,7 +21804,7 @@ textarea.form-control-lg {
   color: #AB7442;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .section4 {
     margin-top: 40em !important;
   }
@@ -21859,7 +21875,7 @@ textarea.form-control-lg {
   font-weight: normal;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .section5 {
     margin-top: 3em !important;
   }
@@ -21987,7 +22003,7 @@ textarea.form-control-lg {
   display: block;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .section6 {
     margin-top: 40em !important;
   }
@@ -22061,7 +22077,7 @@ textarea.form-control-lg {
   border: #ced4da 1px solid;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .section7 {
     margin-top: 3em !important;
   }
@@ -22073,6 +22089,8 @@ textarea.form-control-lg {
   }
   .section7 .containerSection3 .rightPartS3 {
     width: 100%;
+    justify-content: center;
+    padding: auto;
   }
   .section7 .containerSection3 .rightPartS3 .topRightS3 {
     text-align: center;
@@ -22116,7 +22134,7 @@ textarea.form-control-lg {
   color: grey;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .section8 {
     display: block;
     margin-top: 25em !important;
@@ -22153,9 +22171,10 @@ header .sectionHeader .containerHeader .rightPartHeader .reseauxHeader div i {
   padding: 10px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .containerHeader {
     flex-direction: column;
+    width: 100%;
   }
   .leftPartHeader, .rightPartHeader {
     flex-direction: column;
@@ -22279,7 +22298,7 @@ footer .containerFooter .bottomFooter div span {
   text-decoration: underline;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .topFooter {
     flex-direction: column;
   }
@@ -22315,7 +22334,7 @@ body {
   font-size: 3em;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .section1Contact {
     width: 100% !important;
     text-align: center;
@@ -22361,7 +22380,7 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .section2Contact {
     width: 100% !important;
     margin-top: 2em;

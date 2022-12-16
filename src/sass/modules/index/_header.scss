@@ -33,9 +33,10 @@ header{
         }
     }
 }
-@media (max-width: 700px){
+@media (max-width: 800px){
     .containerHeader{
     flex-direction: column;
+    width: 100%;
     }
     .leftPartHeader, .rightPartHeader{
         flex-direction: column;
