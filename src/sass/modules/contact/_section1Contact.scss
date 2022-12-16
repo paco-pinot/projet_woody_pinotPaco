@@ -16,3 +16,10 @@
         font-size: 3em;
     }
 }
+@media (max-width: 700px){
+    .section1Contact{
+        width: 100% !important;
+        text-align: center;
+        padding: 0;
+    }
+}

@@ -45,7 +45,7 @@
         width: 100% !important;
         margin-top: 2em;
         .section2ContactContainer{
-            width: 100% !important
+            width: 100% !important;
             height: max-content;
             flex-direction: column;
             gap: 1em;
@@ -55,9 +55,9 @@
             
         }
         .rightPartContactS2{
-            width: auto;
+            width: 100% !important;
             iframe{
-                width: auto;
+                width: 100% !important;
             }
         }
         .leftPartContactS2{

@@ -22307,6 +22307,13 @@ body {
   font-size: 3em;
 }
 
+@media (max-width: 700px) {
+  .section1Contact {
+    width: 100% !important;
+    text-align: center;
+    padding: 0;
+  }
+}
 .section2Contact {
   margin: 0;
 }
@@ -22348,16 +22355,30 @@ body {
 
 @media (max-width: 700px) {
   .section2Contact {
-    width: 100%;
+    width: 100% !important;
     margin-top: 2em;
   }
   .section2Contact .section2ContactContainer {
-    width: 100%;
-    height: auto;
+    width: 100% !important;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
     flex-direction: column;
+    gap: 1em;
   }
   .section2Contact .rightPartContactS2, .section2Contact .leftPartContactS2 {
     width: 100% !important;
-    flex-direction: row;
+  }
+  .section2Contact .rightPartContactS2 {
+    width: 100% !important;
+  }
+  .section2Contact .rightPartContactS2 iframe {
+    width: 100% !important;
+  }
+  .section2Contact .leftPartContactS2 {
+    justify-content: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    align-items: center;
   }
 }
