@@ -33,4 +33,11 @@ header{
         }
     }
 }
-
+@media (max-width: 700px){
+    .containerHeader{
+    flex-direction: column;
+    }
+    .leftPartHeader, .rightPartHeader{
+        flex-direction: column;
+    }
+}
