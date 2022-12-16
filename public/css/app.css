@@ -22048,6 +22048,7 @@ textarea.form-control-lg {
   border: none;
   padding: 10px;
   color: white;
+  cursor: pointer;
 }
 .section7 .containerSection3 .rightPartS3 .formSection7 form .form-outline input, .section7 .containerSection3 .rightPartS3 .formSection7 form .form-outline textarea {
   border-radius: 0 !important;
@@ -22304,4 +22305,43 @@ body {
 .section1Contact h1, .section1Contact .h1 {
   font-weight: bolder;
   font-size: 3em;
+}
+
+.section2Contact {
+  margin: 0;
+}
+.section2Contact .section2ContactContainer {
+  display: flex;
+  width: 100%;
+  height: 450px;
+}
+.section2Contact .section2ContactContainer .rightPartContactS2 {
+  height: 100%;
+  width: 50%;
+}
+.section2Contact .section2ContactContainer .rightPartContactS2 iframe {
+  height: 100%;
+  width: 100%;
+}
+.section2Contact .section2ContactContainer .leftPartContactS2 {
+  width: 50%;
+  height: 100%;
+  background-color: #F5F5F5;
+  padding-left: 10%;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section2Contact .section2ContactContainer .leftPartContactS2 form .form-outline input, .section2Contact .section2ContactContainer .leftPartContactS2 form .form-outline textarea {
+  border-radius: 0 !important;
+}
+.section2Contact .section2ContactContainer .leftPartContactS2 form .btnForm {
+  display: block;
+  width: 100%;
+  background-color: #AB7442;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
 }
