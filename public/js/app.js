@@ -1,7 +1,39 @@
-$('.dropdown').mouseenter(function(){
-    if(!$('.navbar-toggle').is(':visible')) { // disable for mobile view
-        if(!$(this).hasClass('open')) { // Keeps it open when hover it again
-            $('.dropdown-toggle', this).trigger('click');
+// $('.dropdown').mouseenter(function(){
+//     if(!$('.navbar-toggle').is(':visible')) { // disable for mobile view
+//         if(!$(this).hasClass('open')) { // Keeps it open when hover it again
+//             $('.dropdown-toggle', this).trigger('click');
+//         }
+//     }
+// });
+(function () {
+    "use strict";
+    
+    var carousels = function () {
+        $(".owl-carousel1").owlCarousel({
+        loop: true,
+        center: true,
+        margin: 0,
+        responsiveClass: true,
+        nav: false,
+        responsive: {
+            0: {
+            items: 1,
+            nav: false
+            },
+            680: {
+            items: 2,
+            nav: false,
+            loop: false
+            },
+            1000: {
+            items: 3,
+            nav: true
+            }
         }
-    }
-});
+        });
+    };
+
+    (function ($) {
+        carousels();
+    })(jQuery);
+    })();
