@@ -38,12 +38,13 @@
                 .imgCardsSection4{
                     overflow: hidden;
                     position: relative;
-                    // .animSection6Cards:hover{
-                    //     display: block;
-
-                    // }
+                    height: 100%;
+                    width: 100%;
+                    .animSection6Cards:hover{
+                        opacity: 1;
+                    }
                     .animSection6Cards{
-                        
+                        opacity: 0;
                         position:absolute ; 
                         display: flex;
                         align-items: center;
@@ -60,6 +61,11 @@
                             border: 1px solid white ;
                             color: white;
                             cursor: pointer;
+                            transition: 0.5s;
+                        }
+                        i:hover{
+                            background-color: white;
+                            color: black;
                         }    
                     }
                     img{
@@ -68,9 +74,11 @@
                         object-fit: contain;
                         transition: 1s;
                     }
+
                     img:hover{
                         transform: scale(1.1);
                         transition-duration: 1s;
+                        
                     }
                 }
                 .textCardsSection4{
@@ -94,12 +102,7 @@
         }
     }
 }
-.zob{
-    display: none;
-}
-.tololo:hover .zob{
-    display: block;
-}
+
 @media (max-width: 800px){
     .section6{
         // A REGLER AVEC SECTION 3

@@ -21946,8 +21946,14 @@ textarea.form-control-lg {
 .section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 {
   overflow: hidden;
   position: relative;
+  height: 100%;
+  width: 100%;
+}
+.section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards:hover {
+  opacity: 1;
 }
 .section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards {
+  opacity: 0;
   position: absolute;
   display: flex;
   align-items: center;
@@ -21965,6 +21971,11 @@ textarea.form-control-lg {
   border: 1px solid white;
   color: white;
   cursor: pointer;
+  transition: 0.5s;
+}
+.section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards i:hover, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 .animSection6Cards i:hover {
+  background-color: white;
+  color: black;
 }
 .section6 .containerSection4 .topSection4 .cardsSection4 .imgCardsSection4 img, .section6 .containerSection4 .bottomSection4 .cardsSection4 .imgCardsSection4 img {
   width: 100%;
@@ -21993,14 +22004,6 @@ textarea.form-control-lg {
 }
 .section6 .containerSection4 .topSection4 .cardsSection4 .textCardsSection4 span, .section6 .containerSection4 .bottomSection4 .cardsSection4 .textCardsSection4 span {
   color: #AB7442;
-}
-
-.zob {
-  display: none;
-}
-
-.tololo:hover .zob {
-  display: block;
 }
 
 @media (max-width: 800px) {
