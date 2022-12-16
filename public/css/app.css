@@ -22345,3 +22345,19 @@ body {
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 700px) {
+  .section2Contact {
+    width: 100%;
+    margin-top: 2em;
+  }
+  .section2Contact .section2ContactContainer {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .section2Contact .rightPartContactS2, .section2Contact .leftPartContactS2 {
+    width: 100% !important;
+    flex-direction: row;
+  }
+}

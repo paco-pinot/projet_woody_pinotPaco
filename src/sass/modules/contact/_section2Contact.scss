@@ -40,3 +40,31 @@
         }
     }
 }
+@media (max-width: 700px){
+    .section2Contact{
+        width: 100% !important;
+        margin-top: 2em;
+        .section2ContactContainer{
+            width: 100% !important
+            height: max-content;
+            flex-direction: column;
+            gap: 1em;
+        }
+        .rightPartContactS2,.leftPartContactS2{
+            width: 100% !important;
+            
+        }
+        .rightPartContactS2{
+            width: auto;
+            iframe{
+                width: auto;
+            }
+        }
+        .leftPartContactS2{
+            justify-content: center;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            align-items: center;
+        }
+    }
+}
