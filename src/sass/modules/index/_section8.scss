@@ -14,11 +14,35 @@
         justify-content: center;
         gap: 1em;
         .cardSection8{
+            
+            width: 100%;
+            height: 100%;
+            .animationSection8{
+                position: absolute;
+               
+                .logoSection8{
+                    display: flex;
+                    flex-direction: column;
+
+                    i{
+                        
+                    }
+                }
+            }
             .imgCardsS8{
+                overflow: hidden;
+                position: relative;
+                height: 100%;
+                width: 100%;
                 img{
                     height: 100%;
                     width: 100%;
                     object-fit: contain;
+                    transition: 1s;
+                }
+                img:hover{
+                    transform: scale(1.1);
+                    transition-duration: 1s;
                 }
             }
             .nameCardsS8{
