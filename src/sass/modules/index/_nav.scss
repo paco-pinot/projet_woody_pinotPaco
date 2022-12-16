@@ -3,7 +3,10 @@ nav{
         .nav-link{
             cursor: pointer!important;
         }
-        .nav-link:hover{
+        .HomeBrun{
+            color: #AB7442 !important;
+        }
+        .hoverBrunNavbar:hover{
             color: #AB7442;
         }
         .navbarQuote{
@@ -20,6 +23,7 @@ nav{
             display: none;
             z-index: 50;
             background-color: white;
+            color: black !important;
             ul{
                 list-style-type:none;
                 display: flex;

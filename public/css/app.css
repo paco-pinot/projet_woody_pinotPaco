@@ -22183,7 +22183,10 @@ header .sectionHeader .containerHeader .rightPartHeader .reseauxHeader div i {
 nav .navbar-nav .nav-link {
   cursor: pointer !important;
 }
-nav .navbar-nav .nav-link:hover {
+nav .navbar-nav .HomeBrun {
+  color: #AB7442 !important;
+}
+nav .navbar-nav .hoverBrunNavbar:hover {
   color: #AB7442;
 }
 nav .navbar-nav .navbarQuote a {
@@ -22197,6 +22200,7 @@ nav .dropdownPages .exemple {
   display: none;
   z-index: 50;
   background-color: white;
+  color: black !important;
 }
 nav .dropdownPages .exemple ul {
   list-style-type: none;
