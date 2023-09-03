@@ -1,6 +1,5 @@
 .section1{
-    .carousel{
-        
+    .carousel{   
         .carousel-indicators{
             button{
                 border:5px white double !important ;
@@ -71,6 +70,29 @@
         }
         p{
             font-size: small;
+        }
+    }
+    .buttonsCaroussel{
+        justify-content: space-between;
+    }
+    .carousel-control-next{
+        justify-content: end;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .carousel-control-prev{
+        justify-content: left;
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+    }
+    .carousel-indicators{
+        button{
+            border:5px white double !important ;
+            // border-top:5px white double !important ;
+            // border-bottom: 5px white double !important;
+            width: 5px !important;
+            height: 5px !important;
         }
     }
 }

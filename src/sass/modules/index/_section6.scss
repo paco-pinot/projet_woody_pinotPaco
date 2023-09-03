@@ -106,6 +106,7 @@
 @media (max-width: 800px){
     .section6{
         // A REGLER AVEC SECTION 3
+        margin-top: 2em;
         h2{
             font-size: 2em;
         }
@@ -119,5 +120,8 @@
                 justify-content: center;
             }
         }
+    }
+    .containerListTopSection6{
+        text-align: center;
     }
 }
