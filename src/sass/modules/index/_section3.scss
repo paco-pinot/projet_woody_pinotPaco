@@ -72,26 +72,76 @@
         }
     }
 }
-// MEDIA QUERY 375PX ET 425PX
-@media (max-width: 800px){
+// TABLETTES
+@media (min-width: 701px) and (max-width: 1000px) {
     .section3{
+        margin-top: 3em;
+    }
+    .containerSection3{
+        flex-direction: column-reverse;
+        height: 100%!important;
+        .leftPartS3{
+            width: 100%!important; 
+            height: 50dvh!important ;
+            img{
+                // object-fit: contain!important;
+                width: 100%!important;
+                height: 100%!important;
+            }
+            // height: 70%!important;            
+        }
+        .rightPartS3{
+            width: 100%!important;     
+            padding-left:10%!important;
+            padding-right: 10%!important;
+            .topRightS3{
+                text-align: center;
+                margin-top: 2em;
+            }
+            .bottomRightS3{
+                justify-content: center;
+                align-items: center;
+                // gap: 3em;
+                .topBottomRightS3{
+                   justify-content: center;
+                    height: auto;
+                    align-items: center;
+                    .txtNearIconS3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .rightButton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+// TELEPHONE
+@media (max-width: 700px){
+    .section3,.section5{
         margin-top: 3em !important;
         
         .containerSection3{
-            flex-direction: column;
+            flex-direction: column-reverse;
+            height: 100%;
             .leftPartS3{
-                width: 100%;             
+                width: 100%!important; 
+                height: 40dvh;            
             }
             .rightPartS3{
-                width: 100%;              
+                width: 100%!important;              
                 .topRightS3{
                     text-align: center;
                     margin-top: 2em;
                 }
                 .bottomRightS3{
-                    flex-direction: column;
+                    // flex-direction: column;
+                    justify-content: center;
                     align-items: center;
-                    gap: 3em;
+                    gap: 1em;
                     .topBottomRightS3{
                         flex-direction: column;
                         height: auto;
@@ -99,6 +149,22 @@
                         .txtNearIconS3{
                             text-align: center;
                         }
+                    }
+                }
+            }
+            .iconS3{
+                i{
+                background-color: white;
+                color: #AB7442;
+                font-size: 2em!important;
+                padding: 10px;
+                }                       
+            }
+            .txtNearIconS3{
+                p{
+                    span{
+                        color: #AB7442;
+                        font-size: 1em!important;
                     }
                 }
             }

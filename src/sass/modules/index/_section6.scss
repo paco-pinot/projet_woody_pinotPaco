@@ -28,6 +28,7 @@
         flex-direction: column;
         gap: 2em;
         margin-top: 2em;
+        height: 100%!important;
         .topSection4,.bottomSection4{
             display: flex;
             gap: 2em;
@@ -103,17 +104,20 @@
     }
 }
 
-@media (max-width: 800px){
+// TABLETTES
+@media (min-width: 701px) and (max-width: 1000px) {
+
+}
+// TELEPHONE
+@media (max-width: 700px){
     .section6{
         // A REGLER AVEC SECTION 3
-        margin-top: 2em;
         h2{
             font-size: 2em;
         }
         .containerListTopSection6{
             font-size: small;
         }
-        margin-top: 40em !important;
         .containerSection4{
             .topSection4,.bottomSection4{
                 flex-direction: column;

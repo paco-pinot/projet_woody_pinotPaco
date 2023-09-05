@@ -1,3 +1,6 @@
+.brGeneralCarpentry{
+    display: none;
+}
 .section4{
     margin-left:15% ;
     margin-right: 15%;
@@ -38,6 +41,7 @@
                     border: 3px solid rgba(128, 128, 128, 0.148);
                     border-top: 0;
                     padding-top: 1em;
+                    
                     h4{
                         font-size: medium;
                         font-weight: bold;
@@ -54,15 +58,38 @@
         }
     }
 }
-@media (max-width: 800px){
+// TABLETTES
+@media (min-width: 701px) and (max-width: 900px) {
+    .brGeneralCarpentry{
+        display: block!important;
+    }
     .section4{
-        // A REGLER AVEC SECTION 3
-        margin-top: 40em !important;
+        margin-top: 3em;
+
+        .cardsSection4{
+            // height: 70dvh!important;
+            align-items: center;
+            .textCardsSection4{
+                p{
+                    font-size: small;
+                }
+               
+            }
+        }
+    }
+
+}
+// TELEPHONE
+@media (max-width: 700px){
+    .section4{
+        margin-top: 3em;
         .containerSection4{
             .topSection4,.bottomSection4{
                 flex-direction: column;
                 justify-content: center;
+               
             }
         }
     }
+
 }

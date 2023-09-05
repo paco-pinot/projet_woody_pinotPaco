@@ -40,30 +40,37 @@
         }
     }
 }
+
+// TABLETTES
+
+// TELEPHONE
 @media (max-width: 800px){
     .section2Contact{
         width: 100% !important;
-        margin-top: 2em;
         .section2ContactContainer{
             width: 100% !important;
             height: max-content;
-            flex-direction: column;
-            gap: 1em;
+            flex-direction: column;           
         }
         .rightPartContactS2,.leftPartContactS2{
             width: 100% !important;
-            
+            height: 100%;
         }
         .rightPartContactS2{
             width: 100% !important;
+            background-color: #303030;
             iframe{
                 width: 100% !important;
+                height: 100%!important;
             }
         }
         .leftPartContactS2{
             justify-content: center;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
+            padding-left: 10%!important;
+            padding-right: 10% !important;
+            padding-bottom: 10%;
+            padding-top: 10px;
+            text-align: center;
             align-items: center;
         }
     }

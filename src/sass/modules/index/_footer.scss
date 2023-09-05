@@ -13,9 +13,9 @@ footer{
             gap: 2em;
             width: 100%;
             .footercolumn{
-                .containerNewsletter{
-                    .emailNewsletter{
-                        .containerEmailNL{
+                .containerNewsletter {
+                    .emailNewsletter {
+                        .containerEmailNL {
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
@@ -23,16 +23,24 @@ footer{
                             color: grey;
                             background-color: white;
                             padding: 10px;
-                            .btnfooter{
+                            
+                            input[type="text"] {
+                                flex: 1;
+                                border: none;
+                                padding: 10px;
+                                outline: none;
+                            }
+                            
+                            .btnfooter {
                                 background-color: #AB7442;
                                 color: white;
                                 padding: 10px;
                                 cursor: pointer;
-                                
                             }
                         }
                     }
                 }
+                
                 h3{
                     font-size: 1.5em;
                     font-weight: bold;
@@ -64,7 +72,7 @@ footer{
                             }
                         }
                     }
-                    li:hover{
+                    li:not(.liLogoFooter):hover{
                         color: #AB7442;
                         transform: scale(1.04);
                     }
@@ -89,13 +97,18 @@ footer{
         
     }
 }
-@media (max-width: 800px){
+@media (max-width: 700px){
     .topFooter{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .bottomFooter{
         flex-direction: column;
-        gap: 3em;
+        gap: 2em;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 }

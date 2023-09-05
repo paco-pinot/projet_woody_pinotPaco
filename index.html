@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Woody</title>
     <link rel="stylesheet" href="./public/css/app.css">
-    <link rel="icon" type="image/x-icon" href="...">
+    <link rel="icon" type="image/x-icon" href="./public/img/favIcon.png">
     
 </head>
 
 <body>
+
     <header>
         <!-- SECTION HEADER -->
         <section class="sectionHeader">
             <div class="containerHeader">
                 <div class="leftPartHeader">
                     <div class="locationHeader">
-                        <i class="fa-solid fa-location-dot colorBrun"></i><span>123 Street, New York, USA</span>
+                        <i class="fa-solid fa-location-dot colorBrun"></i><span> 123 Street, New York, USA</span>
                     </div>
                     <div class="dateHeader">
                         <i class="fa-regular fa-clock colorBrun"></i> <span>Mon-Fri : 09.00 AM -09.00 PM</span>
@@ -74,9 +75,7 @@
             </div>
         </div>
     </nav>
-    <div id="scroll_to_top">
-        <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
-    </div>
+
     <main>
 
         <!-- SECTION 1 / CAROUSSEL-->
@@ -258,7 +257,7 @@
                             <img src="./public/img/service-1.jpg" alt="">
                         </div>
                         <div class="textCardsSection4">
-                            <h4>General Carpentry</h4>
+                            <h4>General <br class="brGeneralCarpentry">Carpentry</h4>
                             <p>Stet stet justo dolor sed duo. Ut clita sea sit
                                 ipsum diam lorem diam.</p>
                             <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
@@ -332,7 +331,7 @@
         </section>
         <!-- SECTION 5 -->
         <section class="section5">
-            <div class="containerSection3">
+            <div class="containerSection3 containerSection5">
                 <div class="rightPartS3">
                     <div class="topRightS3">
                         <h2>Why Choose Us __</h2>
@@ -412,7 +411,7 @@
                             <img src="./public/img/service-2.jpg" alt="">
                         </div>
                         <div class="textCardsSection4">
-                            <h4>General Carpentry</h4>
+                            <h4>General <br class="brGeneralCarpentry"> Carpentry</h4>
                             <p>Stet stet justo dolor sed duo. Ut clita sea sit
                                 ipsum diam lorem diam.</p>
                             <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
@@ -511,14 +510,15 @@
                 </div>
             </div>
         </section>
+
         <section class="section7">
-            <div class="containerSection3">
+            <div class="containerSection3 containerSection7">
                 <div class="leftPartS3">
                     <img src="./public/img/quote.jpg" alt="">
                 </div>
                 <div class="rightPartS3">
                     <div class="topRightS3">
-                        <h2>Free Quote __</h2>
+                        <h2>__Free Quote__</h2>
                         <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
                             diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat
                             amet</p>
@@ -572,6 +572,7 @@
                     </div>
                 </div>
         </section>
+        <!-- ___________________SECTION8____________________ -->
         <section class="section8">
             <h2>__ Team Members __</h2>
             <div class="containerSection8">
@@ -650,7 +651,7 @@
                         <li><i class="fa-solid fa-location-dot"></i><span>123 Street, New York, USA</span></li>
                         <li><i class="fa-solid fa-phone"></i><span>+012 345 67890</span></li>
                         <li><i class="fa-solid fa-envelope"></i><span>info@example.com</span></li>
-                        <li>
+                        <li class="liLogoFooter">
                             <div class="containerLogoFooter">
                                 <i class="fa-brands fa-twitter "></i>
                                 <i class="fa-brands fa-facebook-f "></i>
@@ -688,7 +689,9 @@
                             ipsum elitr est.
                         </div>
                         <div class="emailNewsletter">
-                            <div class="containerEmailNL"><span>Your email</span> <span class="btnfooter">SignUp</span>
+                            <div class="containerEmailNL">
+                                <input type="text" placeholder="Your email">
+                                <span class="btnfooter">SignUp</span>
                             </div>
                         </div>
                     </div>
@@ -700,11 +703,12 @@
             </div>
         </div>
     </footer>
+    <div id="scroll_to_top">
+        <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
 
-
+    <script src="./public/js/app.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/1166695acb.js" crossorigin="anonymous"></script>
 </body>
-<script src="./public/js/app.js"></script>
-
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-
 </html>

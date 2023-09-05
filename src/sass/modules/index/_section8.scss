@@ -37,7 +37,11 @@
                 height: 100%;
                 transition: 0.5s;
                 i{
-                    padding: 10px;
+                    width: 35px;
+                    height: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     background-color: white;
                     color: #AB7442;
                     cursor: pointer;
@@ -81,12 +85,32 @@
     }
 }
 
-@media (max-width: 800px){
+// TABLETTES
+@media (min-width: 701px) and (max-width: 1000px) {
+    .animationSection8{
+        i{
+            height:25px!important ;
+            width:25px!important ;
+        }
+    }
+
+}
+// TELEPHONE
+@media (max-width: 700px){
     .section8{
-        display: block;
-        margin-top: 25em !important;
+        // display: block;
+        margin-top: 2em;
+        margin-left:5% ;
+        margin-right: 5%;
         .containerSection8{
-            flex-direction: column;
+            // flex-direction: column;
+        }
+        .animationSection8{
+            i{
+                font-size: 10px;
+                height:20px!important ;
+                width:20px!important ;
+            }
         }
     }
 }

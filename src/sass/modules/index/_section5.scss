@@ -16,7 +16,7 @@
         .rightPartS3{
             background-color: #F5F5F5;
             width: 50%;
-            padding-left: 2em;
+            // padding-left: 2em;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -24,7 +24,7 @@
             padding-right: 2%;
             .topRightS3{
                 h2{
-                    font-size: 3em;
+                    // font-size: 3em;
                     font-weight: bold;
                     color: black;
                 }
@@ -41,14 +41,20 @@
                 .colSection5Left,.colSection5Right{
                     .topBottomRightS3{
                         display: flex;
-                        gap: 1em;
+                        gap: 1.5em;
                         // height: 100px;
                         .iconS3{
+                            width: 60px;
+                            height: 60px;
                             i{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
                             background-color: white;
-                            color: #AB7442;
                             font-size: 2em;
-                            padding: 10px;
+                            color: #AB7442;
+                            width: 100% ;
+                            height: 100%;
                             }                       
                         }
                         .txtNearIconS3{
@@ -68,37 +74,76 @@
         }
     }
 }
-// MEDIA QUERY 375PX ET 425PX
-@media (max-width: 800px){
+// TABLETTES
+@media (min-width: 701px) and (max-width: 1000px) {
     .section5{
-        margin-top: 3em !important;
-        .containerSection3{
+        .containerSection5{
             flex-direction: column;
-            .leftPartS3{
-                width: 100%;
-            }
-            .rightPartS3{
-                width: 100%;
-                align-items: center;
-                padding: 0;
-                .topRightS3{
-                    text-align: center;
-                    margin-top: 2em;
-                }
-                .containerColonneSection5{
-                    justify-content: center;
-                    .colSection5Left,.colSection5Right{
-                        .topBottomRightS3{
-                            flex-direction: column;
-                            height: auto;
-                            align-items: center;
-                            .txtNearIconS3{
-                                text-align: center;
-                            }
-                        }
-                    }
-                }
-            }
-        }   
+        }
+        .rightPartS3{
+            padding-bottom: 2em;
+            padding-right: 10%!important;
+
+        }
+        .containerColonneSection5{
+            justify-content: center;
+        }
     }
+}
+// TELEPHONE
+@media (max-width: 700px){
+    .containerSection5{
+        flex-direction: column!important;
+        height: 100%!important;
+        .leftPartS3{
+            height: 50dvh!important;
+            
+        }
+        .rightPartS3{
+            width: 100%!important;     
+            padding-left:10%!important;
+            padding-right: 10%!important;
+            padding-bottom: 2em;
+        }
+        .containerColonneSection5{
+            align-items: center;
+            justify-content: center;
+        }
+      
+    }
+//     .section5{
+//         margin-top: 3em !important;
+//         .containerSection3{
+//             flex-direction: column;
+//             height: 100%!important;
+//             .leftPartS3{
+//                 width: 100%;
+//                 height: 40dvh;            
+
+//             }
+//             .rightPartS3{
+//                 width: 100%;
+//                 align-items: center;
+//                 padding: 0;
+                
+//                 .topRightS3{
+//                     text-align: center;
+//                     margin-top: 2em;
+//                 }
+//                 .containerColonneSection5{
+//                     justify-content: center;
+//                     .colSection5Left,.colSection5Right{
+//                         .topBottomRightS3{
+//                             flex-direction: column;
+//                             height: auto;
+//                             align-items: center;
+//                             .txtNearIconS3{
+//                                 text-align: center;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }   
+//     }
 }

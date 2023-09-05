@@ -1,5 +1,7 @@
 .section1{
-    .carousel{   
+    width: 100%;
+    .carousel{  
+         
         .carousel-indicators{
             button{
                 border:5px white double !important ;
@@ -30,6 +32,7 @@
                         display: flex;
                         justify-content: center;
                         gap: 1em;
+                       
                         button{
                             border: transparent;
                             padding: 10px;
@@ -45,8 +48,9 @@
             }
         }
         .carousel-control-prev, .carousel-control-next{
-            width: 85%;
+            // width: 85%;
             top: auto;
+            margin-bottom: 0.5em;
             .carousel-control-next-icon,.carousel-control-prev-icon{
                 height: 10px;
                 width: 10px;
@@ -54,22 +58,37 @@
                 padding: 15px;
             }
         }
+        .carousel-control-next{
+            margin-right: 30%;
+        }
+        .carousel-control-prev{
+            margin-left: 30%;
+        }
     }
 }
+@media (max-width: 600px){
+    .carousel-caption{
+        bottom:0!important;
+        h3{
+            display: block;
+        }
+    }
 
+}
 @media (max-width: 800px){
     .carousel-caption{
-        bottom: 0 !important;
+        top: 50%!important;
+        transform: translateY(-50%)!important;
         h3{
-            font-weight: bolder;
-            font-size: small;
+            font-weight: bolder!important;
+            font-size: small!important;
         }
         h5{
-            font-weight: bolder;
-            font-size: medium;
+            font-weight: bolder!important;
+            font-size: medium!important;
         }
         p{
-            font-size: small;
+            font-size: small!important;
         }
     }
     .buttonsCaroussel{
@@ -77,13 +96,13 @@
     }
     .carousel-control-next{
         justify-content: end;
-        margin-bottom: 10px;
-        margin-right: 10px;
+        
+        margin-right: 20%;
     }
     .carousel-control-prev{
         justify-content: left;
-        margin-bottom: 10px;
-        margin-left: 10px;
+        
+        margin-left: 20%;
 
     }
     .carousel-indicators{
